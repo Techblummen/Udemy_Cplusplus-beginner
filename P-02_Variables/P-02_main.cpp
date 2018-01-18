@@ -1,4 +1,4 @@
-//P-01_Variables
+//P-02_Variables
 //In this project: basics on variables
 
 #include <iostream>
