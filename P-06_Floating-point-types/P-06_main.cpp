@@ -14,7 +14,7 @@ int main() {
     cout << fvalue << endl;
     cout << fixed << fvalue << endl; //Output with several decimal places (pre-defined number of places)
     cout << scientific << fvalue << endl; //Output with scientific notation
-    cout << "Size of float is: " << sizeof(float) << endl;
+    cout << "Size of float is: " << sizeof(float) << " bytes" << endl;
 
     cout << endl << "Same variable, with a defined number of decimal places:" << endl;
     cout << setprecision(20) << fixed << fvalue << endl;
@@ -24,14 +24,14 @@ int main() {
 
     double dvalue = 12.123456789;
     cout << endl << setprecision(20) << fixed << dvalue << endl;
-    cout << "Size of double is: " << sizeof(double) << endl;
+    cout << "Size of double is: " << sizeof(double) << " bytes" << endl;
     //Double stores more bytes, so it is better to deal with more
     //decimal places. Now, all the 9 decimal places are correct and
     //the rest is filled with trash
 
     long double Lvalue = 12.123456789123456789;
     cout << endl << setprecision(20) << fixed << Lvalue << endl;
-    cout << "Size of long double is: " << sizeof(long double) << endl;
+    cout << "Size of long double is: " << sizeof(long double) << " bytes" << endl;
     //Long double stores even more bytes, for processes that require even more precision
     //But long double did not work (only 9 correct decimal places).
     //It seems long double works poorly on MinGW and Windows. Better to avoid it.
