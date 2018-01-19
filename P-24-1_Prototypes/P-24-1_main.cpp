@@ -30,8 +30,8 @@ void processingAnswer(int var);
 
 int main() {
 
-    int variable2 = obtainAnswer();
-    processingAnswer(variable2);
+    int variable3 = obtainAnswer();
+    processingAnswer(variable3);
 
     return 0;
 }
