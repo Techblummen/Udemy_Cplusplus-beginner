@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1516483187 source:c:\users\dan_e\onedrive\software projects\aprendizado\udemy_cplusplus-beginner\p-25-2_classes-2\dog.cpp
+	<iostream>
+	"Dog.h"
+
+1516482978 c:\users\dan_e\onedrive\software projects\aprendizado\udemy_cplusplus-beginner\p-25-2_classes-2\dog.h
+
+1516483241 source:c:\users\dan_e\onedrive\software projects\aprendizado\udemy_cplusplus-beginner\p-25-2_classes-2\p-25-2_main.cpp
+	<iostream>
+	"Dog.h"
+
