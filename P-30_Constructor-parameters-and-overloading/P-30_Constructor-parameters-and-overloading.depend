@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1516654451 source:c:\users\dan_e\onedrive\software projects\aprendizado\udemy_cplusplus-beginner\p-30_constructor-parameters-and-overloading\p-30_main.cpp
+	<iostream>
+	"Person.h"
+
+1516654503 c:\users\dan_e\onedrive\software projects\aprendizado\udemy_cplusplus-beginner\p-30_constructor-parameters-and-overloading\person.h
+	<iostream>
+
