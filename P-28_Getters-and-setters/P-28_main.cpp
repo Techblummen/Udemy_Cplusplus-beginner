@@ -24,15 +24,15 @@ int main()
     Food milk;
     cout << "This food tastes " << milk.getTaste() << endl;
 
-    //Here we used the method "getTaste()" to get the value of the
+    //Here we used the getter method "getTaste()" to get the value of the
 	//instance variable "taste" in the object "milk". By default, this
-	//value is a string "sauer". This value is automatically defined in
+	//value is a string "sauer", which is automatically defined in
 	//the constructor of the class.
 
     milk.setTaste("sweet");
     cout << "Now it tastes " << milk.getTaste() << endl;
 
-    //Now we use the method "setTaste()" to set the variable "taste" of
+    //Now we use the setter method "setTaste()" to set the variable "taste" of
 	//"milk" to a new value: "sweet". Then, if we ask for "taste" again with the
 	//method "getTaste()", it returns the new value.
 
