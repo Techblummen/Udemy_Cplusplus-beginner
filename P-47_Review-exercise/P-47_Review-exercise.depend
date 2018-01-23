@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1516735806 source:c:\users\dan_e\onedrive\software projects\aprendizado\udemy_cplusplus-beginner\p-47_review-exercise\p-47_main.cpp
+	<iostream>
+	"Cow.h"
+
+1516734131 c:\users\dan_e\onedrive\software projects\aprendizado\udemy_cplusplus-beginner\p-47_review-exercise\cow.h
+	<sstream>
+	<iostream>
+
+1516734143 source:c:\users\dan_e\onedrive\software projects\aprendizado\udemy_cplusplus-beginner\p-47_review-exercise\cow.cpp
+	"Cow.h"
+
